@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+#navigation-menu ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    float: right;
+    margin-right: 15%;
+    margin-top: 1.5%;
+}
+
+#navigation-menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+#navigation-menu ul li a:hover {
+    border-bottom: 0.15rem solid black;
+}
+
+.registration-btn {
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+#image-area {
+    padding: 0 0 0 3rem;
+}
+
+#image-area img{
+    width: 44rem;
+}   
+
+#column {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#landing-text {
+    margin: 6rem 0 0 6rem;
+}
+
+#landing-text h3 {
+    color: red;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+#landing-text h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+}
+
+#landing-text p {
+    color: grey;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.study-term-btn {
+    border: none;
+    margin-left: 1rem;
+    font-size: 1rem;
+    background-color: transparent;
+}
+.study-term-btn a {
+    color: red;
+    text-decoration: none;
+}
+.enrolled-info {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+}
+
+#landing-text p mark{
+    background-color: transparent;
+    font-weight: bold;
+}
+
+#landing-text p mark:hover {
+    border-bottom: 0.1rem solid black;
+}
+.study-term-btn:hover {
+    border-bottom: 0.1rem solid red;
+}
